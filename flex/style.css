@@ -1,0 +1,1177 @@
+*
+        {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            /* overflow: visible; */
+
+            
+            
+        }
+        
+        body
+        {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+        }
+        
+        .main
+        {
+            height: 100vh;
+            width: 100%;
+            background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/main-slider-01.jpg);
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+            background-position: center center;
+        
+        }
+        .navbar
+        {
+            height: 100px;
+            width: 100%;
+            /* background-color: blueviolet; */
+            position: relative;
+        }
+        .logo
+        {
+            height: 50px;
+            width: 100px;
+            /* margin-top: 35px; */
+            /* margin-left: 70px; */
+            /* position: absolute;
+            top: 20px;
+            left: 50px; */
+            padding-top: 40px;
+            padding-left: 100px;
+        }
+
+        .nav
+        {
+            height: 50px;
+            width: 900px;
+            /* position: absolute;
+            top: 25px;
+            left: 28%; */
+            margin-left: 300px;
+            margin-top: -20px;
+            
+
+            
+        }
+        .navul
+        {
+            /* height: inherit ; */
+            width:800px;
+            display: flex;
+            color: white;
+            margin-left: 100px;
+            /* border: 2px solid white; */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            list-style: none;
+            font-weight: bolder;
+            /* background-color: red; */
+            
+            
+            
+        }
+
+        .nav li
+        {
+            /* border: 2px solid red; */
+            /* width: 0px; */
+            padding:33px ;
+
+        }
+        .fa
+        {
+            font-size: 20px;
+        }
+
+        .aeffect
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .content
+        {
+            height: inherit;
+        }
+
+        .cont1 
+        {
+          display: flex;
+          font-size: 100px; 
+          text-align: center; 
+          justify-content: center;
+          margin-top: 70px;
+          font-weight: bolder;
+          color: rgb(174, 151, 117);
+        }
+        .cont2
+        {
+          display: flex;
+          font-size: 100px; 
+          text-align: center; 
+          justify-content: center;
+          font-weight: bolder;
+          color: white;
+          margin-top: -30px;
+        }
+        .cont3
+        {
+          display: flex;
+          /* font-size: 130px;  */
+          text-align: center; 
+          justify-content: center;
+          font-weight: bolder;
+          color: white;
+        }
+
+        .btn
+        {
+            height: 50px;
+            width: 200px;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 45px ;
+            position: relative;
+            /* margin-left: 580px;
+            margin-top: 30px; */
+            top: 50px;
+            left: 40%;
+            z-index: 2  ;
+            color: white;
+            overflow: hidden;
+            font-size: 14px;
+            font-weight: bolder;
+            
+        }
+        .effect
+        {
+            height: inherit;
+            width: inherit;
+            background: white;
+            position: absolute;
+            top: 100%;
+            z-index: -1;
+            transition: 0.25s;
+        }
+
+                               
+                                    /* hover page 1 of all effcet */
+
+
+        .btn:hover .effect 
+        {
+            color:red;
+            position: absolute;
+            top: 0%;
+        }  
+        
+        .btn:hover
+        {
+            color: black;
+        }
+
+        .btn:hover .fa-long-arrow-right
+        {
+            transform: translate(5px);
+        }
+                                     /* page 2 css */
+        .main2
+        {
+        
+         height: 700px;
+         display: flex;
+         flex-wrap: wrap;
+         
+         
+        }
+        
+        .part1
+        {
+
+         
+         padding: 80px;
+         width: 55%;
+         flex-grow: 1;
+         
+        }
+        .part2
+        {
+            width: 45%;
+            padding-top: 100px;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            
+        }
+        
+        .imgb
+        {
+            display: flex;
+            flex-wrap: wrap;
+            height: 550px;
+            width: 482px;
+            position: absolute;
+            left: 15%;
+            top: 60px;
+            background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/main_ABOUT_BIG.jpg);
+            background-size: cover;
+            
+
+            
+        }
+        
+
+    
+        .cont4
+        {
+        
+          font-size: 50px; 
+          text-align: center; 
+          margin-left:-160px;
+          margin-top: 0px;
+          font-weight: bolder;
+          color: rgb(174, 151, 117);
+        }
+        .cont5
+        {
+        
+          font-size: 45px; 
+          text-align: center; 
+          margin-left: -10px;
+          font-weight: bolder;
+          color:black;
+        }
+        .cont6
+        {
+        
+          font-size: 15px;
+          text-align: center; 
+          margin-top: 20px;
+          color:black;
+          text-align: start;
+        }
+        .papabox
+        {
+            width: 475px;
+            display: flex;
+            justify-content: space-between;
+            margin-top:50px;
+            margin-left: 50px;
+        }
+
+        .box1,.box2,.box3
+        {
+            height: 200px;
+            width:35%;
+            transition: 0.5s;
+        }
+        .box1
+        {
+            background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/main_ABOUT_01.jpg);
+            background-size: cover;
+            
+        }
+        .box2
+        {
+            background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/main_ABOUT_02.jpg);
+            background-size: cover;
+        }
+        .box3
+        {
+            background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/main_ABOUT_03.jpg);
+            background-size: cover;
+        }
+        .btn2
+        {
+            height: 50px;
+            width: 170px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 50px ;
+            position: relative;
+            top: 50px;
+            left:0;
+            z-index: 2 ;
+            color: black;
+            overflow: hidden;
+            font-size: 12px;
+            font-weight: bolder; 
+        }
+        .effect2
+        {
+            height: inherit;
+            width: inherit;
+            background: black;
+            position: absolute;
+            top: 100%;
+            z-index: -1;
+            transition: 0.25s;
+        }
+
+        
+           
+
+        
+                                 /* hover page 2 of all effcet */
+
+
+        .box1:hover
+        {
+            transform: translate(0px,-20px);
+        }
+        .box2:hover
+        {
+            transform: translate(0px,-20px);
+        }
+        .box3:hover
+        {
+            transform: translate(0px,-20px);
+        }
+
+        .btn2:hover .effect2
+        {
+             top: 0%;
+        }
+        .btn2:hover
+        {
+            color: white;
+        }
+
+        .btn2:hover .fa-long-arrow-right
+        {
+            transform: translate(5px);
+        }
+        
+
+                                        /* page3 start here */
+
+        .main3
+        {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-color: rgb(237, 245, 251);
+            margin-top: 100px;
+            padding-top: 100px;
+            
+            
+        }
+
+        
+       .flippart1
+       {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* background: orangered; */
+        
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    
+        
+       }
+       .card1,.card2,.card3,.card4
+       {
+        height: 330px;
+        width: 22%;
+        flex-grow: 1;
+        /* background: violet; */
+        /* border: 2px solid black; */
+        
+       }
+       .flippart2
+       {
+        /* background-color: blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+       }
+       
+       .card5,.card6,.card7,.card8
+       {
+        height: 330px;
+        width: 22%;
+        flex-grow: 1;
+        /* background-color: olive; */
+        /* border: 2px solid black; */
+       }
+       .size
+       {
+        width: 100%;
+       }
+
+                    /* card css is start here */
+        .product 
+    {
+        height: 326px;
+        width: 275px;
+        
+        position: relative;
+        /* box-shadow: 0 0 20px #000; */
+    }
+    .front,.back
+    {
+        height: 326px;
+        width: 275px;
+        background:white;
+        position: absolute;
+        top:0;
+        left:0;
+        transition: 1s;
+        backface-visibility: hidden;
+
+        
+    }
+    .front 
+    {
+        transform: rotateY(180deg);
+    }
+
+    .back 
+    {          
+        transform: rotateY(0deg);  
+
+    }     
+    
+    .fa-solid,.fa-brands
+    {
+        font-size: 70px;
+        margin: 50px 90px;
+        color: goldenrod;
+        
+    }
+    .text
+    {
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .text2
+    {
+        line-height: 20px;
+        
+    }
+    .back
+    {
+        text-align: center;
+        
+        
+    }
+    .cardtext1,.cardtext3
+    {
+        font-size:45px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: rgb(174, 151, 117);
+        line-height: 50px;
+        display: flex;
+        /* justify-content: center; */
+    }
+    .cardtext2
+    {
+        font-size:45px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        line-height: 50px;
+        display: flex;
+    }
+    .cardtext
+    {
+        
+    display: flex;
+    
+    }
+    .card1
+    {
+        
+        text-align: start;
+    }
+
+
+
+                                    /*3 page hover effect of card */
+    .product:hover .front 
+    {
+        transform: rotateY(0deg);
+    }
+    .product:hover .back 
+    {
+        transform: rotateY(180deg);
+    }
+
+
+                                /* page 4 and its css */
+    .main4
+    {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0, 0, 0); 
+        margin-top: 100px;
+    }
+    .portfolio
+    {
+        
+        overflow: hidden;
+        width: 100%;
+        /* border: 3px solid red; */
+        font-weight: bolder;
+        text-shadow: 1px -1px 0 gray,-1px 1px 0 gray;
+        position: relative;
+        
+        
+    }
+    .portfoliospan
+    {
+        font-size: 250px;
+        /* width: 200px; */
+        margin-left: -50px;
+        /* border: 3px solid green; */
+    }
+    .ourportfolio
+    {
+        color: goldenrod;
+        font-size: 30px;
+        margin-left: 150px;
+    }
+    .ourportfolio2
+    {
+        color: white; 
+        font-size: 50px;
+    }
+    .zfont
+    {
+        /* border: 4px solid orangered; */
+        width: 450px;
+        /* top: -100px; */
+        z-index: 3;
+        transform: translate(100% ,-200%);
+    }
+    .imgcorosal1
+    {
+        /* height: 500px; */
+        width: 500px;
+        /* background-color: aquamarine; */
+        margin-left: 33%;
+        display: flex;
+        object-fit: cover;
+        margin-top: -50px;
+        
+
+    }
+    .corosalimg1
+    {
+        object-fit: contain;
+        width: inherit;
+        height: inherit;
+        
+    }
+    .detail1
+    {
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+
+    }
+    .detail2
+    {
+ 
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 20%;
+        color: rgb(174, 151, 117);
+    }
+    .zfont2
+    {
+
+        
+        width: 350px;
+        margin: 40px 41%;
+    }
+
+                                    /* 5 page css start here */
+    .main5
+    {
+        height: 100vh;
+        width: 100%;
+        background-color: burlywood;
+         
+    }
+    .papadiv
+    {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 3px solid red; */
+        margin-top: -42px;
+        width: 100%;
+    }
+    .kid5o1
+    {   
+        width: 50%;
+        /* border: 2px solid; */
+        background-color: white;
+        flex-flow: 1;
+    }
+    .kid5o2
+    {
+        width: 50%;
+        /* border: 2px solid; */
+        flex-flow: 1;
+        background-color: white;
+        position: relative;
+    }
+    .img5o1
+    {
+        /* width: 100vw; */
+        margin: 100px;
+    }
+    .cont5o1
+    {
+        width: 800px;
+        /* border: 2px solid green; */
+        font-size: 45px;
+        font-weight: bold;
+        line-height:50px;
+        margin-top: -80%;
+        margin-left: 350px;
+        
+        
+    }
+    .span5o1
+    {
+        color: rgb(174, 151, 117);
+        margin-left: -320px;
+    }
+    .span5o2
+    {
+        color: black;
+        width: 200px;
+        margin-left: -350px;
+        
+    }
+    .cont5o2
+    {
+        /* border: 2px solid greenyellow; */
+        width: 300px;
+        font-weight: bold;
+        color: rgb(98, 96, 96);
+        margin-left: 150px;
+        margin-top: 70px;
+        line-height: 25px;
+    }
+    
+    .book
+    {
+        height: 520px;
+        width: 570px;
+        margin: 200Px -50px
+        /* object-fit: cover; */
+        
+    }
+    .pencil
+    {
+        height: 170px;
+        width: 200px;
+        position: absolute;
+        top: 250px;
+        left: -70px;
+        /* object-fit: cover;
+         */
+    }
+    .specs
+    {
+        height: 150px;
+        width: 220px;
+        position: absolute;
+        top: 570px;
+        left: 180px;
+    }
+    .pencil2
+    {
+        height: 150px;
+        width: 90px;
+        position: absolute;
+        top: 510px;
+        left: 400px;
+        /* object-fit: cover;
+         */
+    }
+
+                                    /* page six start here */
+    .main6
+    {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        margin-top: 270px;
+        text-align: center;
+        /* background-color: blueviolet; */
+        
+    }
+    .easy,.toget
+    {
+        color: rgb(174, 151, 117);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .toget
+    {
+        color: black;
+    }
+    .flex6
+    {
+       /* background-color: blue; */
+        /* width: inherit; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    .part6o1,.part6o2,.part6o3,.part6o4
+    {
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 20%;
+        position: relative;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .sps1
+    {
+        font-size: 120px;
+        font-weight: bolder;
+        color: rgb(174, 151, 117);
+        /* border: 2px solid orangered; */
+        transition: 1s;
+        transform: translate(0px 0px);
+    }
+    .sps2
+    {
+        font-size: 22px;
+        font-weight: bolder;
+        color: black;
+        /* border: 2px solid oldlace; */
+        position: absolute;
+        top: 45%;
+        width: 250px;
+        left: 10px;
+    }
+    .sps3
+    {
+        color: black;
+        /* border: 2px solid orangered; */
+        position: absolute;
+        top: 55%;
+        width: 250px;
+        left: 10px;
+    }
+
+                        /* page 6 hoverv effect */
+    .flex6:hover.part6o1
+    {
+        transform: translate(0px -25px);
+    }
+
+                                /* 7 page start from here */
+    .main7
+    {
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .leftdiv7
+    {
+        height: 70%;
+        width: 570px;
+        transform: translate(200px ,-500px);
+        /* background-color: red; */
+        text-align: start;
+    }
+    .pdiv
+    {
+        margin-top: -400px;
+        margin-left: -130px;
+    }
+    .p7o1
+    {
+        font-size: 55px;
+        color: rgb(174, 151, 117);
+        font-weight: bolder;
+        
+    }
+    .p7o2
+    {
+        font-size: 55px;
+        color: black;
+        font-weight: bolder;
+        
+    }
+    .p7o3
+    {
+        margin-top: 20px;
+        width: 500px;
+    }
+    .btn7
+        {
+            height: 50px;
+            width: 170px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 50px ;
+            position: relative;
+            top: 50px;
+            left:-130px;
+            z-index: 2 ;
+            color: white;
+            overflow: hidden;
+            font-size: 10px;
+            font-weight: bolder;
+            background-color: black;
+            
+        }
+        .effect7
+        {
+            height: inherit;
+            width: inherit;
+            background: white;
+            position: absolute;
+            top: 100%;
+            z-index: -1;
+            transition: 0.25s;
+        }
+
+                                /* 7 page hover effect start */
+        .btn7:hover .effect7 
+        {
+            color:red;
+            position: absolute;
+            top: 0%;
+        }  
+        
+        .btn7:hover
+        {
+            color: black;
+            
+        }
+
+        .btn7:hover .fa-long-arrow-right
+        {
+            transform: translate(5px);
+        }
+                         /* 8 page css start here */
+            .main8
+            {
+                height: 100vh;
+                width: 100%;
+                position: relative;
+                margin-top: 270px;
+                text-align: center;
+                /* background-color: blueviolet; */
+                
+            }
+            .easy,.toget
+            {
+                color: rgb(174, 151, 117);
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .toget
+            {
+                color: black;
+            }
+            .flex8
+            {
+            
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 50px;
+                justify-content: space-around;
+                margin-top: 100px;
+                /* border: 4px solid red; */
+            }
+            .part8o1,.part8o2,.part8o3,.part8o4
+            {
+                
+                height: 300px;
+                outline: 1px solid gray;
+                outline-offset: 25px;
+                position: relative;
+                margin-left: 60px;
+                margin-right: 60px;
+                filter: grayscale(100%);
+                width: inherit; 
+                
+                
+            }
+            .sapn8
+            {
+                font-size: 20px;
+                color: rgb(174, 151, 117);
+                font-weight: bolder ;
+            }
+            .name1,.name2,.name3,.name4
+            {
+                margin-top: 50px;
+                
+            }
+            .part8o1:hover,.part8o2:hover,.part8o3:hover,.part8o4:hover
+
+            {
+                filter: grayscale(0%); 
+                outline: 2px solid black;
+            }
+                            /* page 9 css start form here     */
+            .main9
+            {
+                height: 100vh;
+                width: 100%;
+                background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/BG_white.jpg?id=11874);
+                position: relative;
+                
+
+                
+            }
+            .papa9
+            {
+                height: 550px;
+                width: 600px;
+                /* border: 4px solid red; */
+                position: absolute;
+                top: 100px;
+                left: 30%;
+                text-align: center;
+            }
+            .span9o1
+            {
+                font-size: 150px;
+                margin-top: -20px;
+                color: rgb(174, 151, 117);
+            }
+            .span9o2
+            {
+                font-size: 25px;
+                position: absolute;
+                top: 100px;
+                left: 0px;
+                font-weight: bolder;
+                
+            }
+            .img9o1
+            {
+                height: 100px;
+                width: 100px;
+                /* background-color: red; */
+                border-radius: 50%;
+                background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/client-04-110x110.jpg);
+                background-size: cover;
+                margin: 100px auto;
+            }
+            .span9o3
+            {
+                font-weight: bold;
+                color:black ;
+                font-size: 20px;
+                margin-top: -70px;
+            }
+            .span9o4
+            {
+                
+                color: rgb(174, 151, 117);
+            }
+
+                            /* page 10 strat here */
+            .main10
+            {
+                height:100vh ;
+                width: 100%;
+                /* background-color: chartreuse; */
+                text-align: start;
+            }
+            .dum10ka
+            {
+                margin-top: 100px;
+                /* background-color: red; */
+                text-align: center;
+            }
+            .flex10
+            {
+                display: flex;
+                flex-wrap: wrap;
+                /* border: 2px solid red; */
+                justify-content: space-around;
+                margin-top: 100px;
+            }
+            .part10o1,.part10o2,.part10o3,.part10o4
+            {
+                /* border: 4px solid ; */
+                height: 450px;
+                width: 20%;
+            }
+            .cardimg10o1
+            {
+                
+                height: 200px;
+                background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/blog_01-1536x1024.jpg);
+                background-size: cover;
+                
+            }
+            .cardimg10o2
+            {
+                
+                height: 200px;
+                background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/blog_02-1536x1024.jpg);
+                background-size: cover;
+                
+            }
+            .cardimg10o3
+            {
+                
+                height: 200px;
+                background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/blog_03-1536x1015.jpg);
+                background-size: cover;
+                
+            }
+            .cardimg10o4
+            {
+            
+                height: 200px;
+                background: url(http://ollis.like-themes.com/wp-content/uploads/2018/02/blog_04-1536x1024.jpg);
+                background-size: cover;
+                
+            }
+            .span10o1
+            {
+                font-size: 12px;
+                margin-left: 10px;  
+            }
+            .span10o2
+            {
+                font-size: 12px;
+                margin-left: 40px;  
+            }
+            .span10o3
+            {
+                margin-left: 40px;
+            }
+            .p10o1
+            {
+                font-weight: bold;
+                margin-top: 20px;
+            }
+            .p10o2
+            {
+                align-items: start;
+                margin-top: 20px;
+            }
+                            /* page11 start here */
+            .main11
+            {
+                height: 600px;
+                width: 100%;
+                background: black;
+                margin-top: 0px;
+                /* position: fixed; */
+                bottom: 0px;
+                
+                
+                
+                
+            }
+            .lastdiv
+            {
+                /* border: 2px solid red; */
+                display: flex;
+                flex-wrap: wrap;
+            
+            }
+            .lastflex2
+            {
+                /* border: 2px solid white; */
+                height: 500px;
+                flex-grow: 1;
+                color: rgb(174, 151, 117);
+                
+            }
+            .lastlogo
+            {
+                margin-left: 50px;
+                margin-top: 100px;
+            }
+            .lastspan
+            {
+                color: white;
+                width: 400px;
+                margin-left: 50px;
+                margin-top: 20px;
+            }
+            .fa-phone
+            {
+                color: rgb(174, 151, 117);  
+                margin-left: 50px;
+                margin-top: 30px;
+                font-size: 30px;
+            }
+            .lastspan2
+            {
+                color: white;
+                font-size: 30px;
+                /* border: 2px solid green; */
+            }
+            .lastdiv2
+            {
+                display: flex;
+                /* height: 100px; */
+                width: 200px;
+                /* border: 2px solid greenyellow; */
+                color: rgb(174, 151, 117);
+                font-size: 20px; 
+                justify-content: space-between;
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+            .lastspan3
+            {
+                color: rgb(174, 151, 117);
+                font-size: 35px;
+                padding-top: 100px;
+                padding-left: 100px;
+            }
+            .littleflex1
+            {
+                display: flex;
+                /* border: 2px solid red; */
+                width: 400px;
+                margin-top: 100px;
+                margin-left: 50px;
+
+            }
+            .littlepart1
+            {
+                margin-left: 20px;
+                font-size: 20px;
+            }
+            .littlepart2
+            {
+                margin-left: 30px;
+                font-size: 20px;
+            }
+
+            .footer
+            {
+                color: goldenrod;
+                text-align: center;
+                margin-top: 20px;
+                border: 2px solid red;
+            }
+            

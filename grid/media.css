@@ -1,0 +1,200 @@
+@media(max-width:500px)
+{
+    .nav
+    {
+        grid-template-columns: 1fr;
+        width: 100px 100px ;
+    }
+    .logo
+    {
+        margin: 30px;
+    }
+    .navele
+    {
+    display: none ;
+    }
+    .icon
+    {
+        display: none;
+    }
+    .main2
+    {
+        grid-template-columns: 1fr;
+        width: 100% ;
+        text-align: center;
+
+    }
+    .ridesidekid
+    {
+        margin-top: 0px;
+    }
+    .readmore
+    {
+        transform: translate(180px);
+    }
+    
+    .hoverdiv
+    {
+        background: none;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .part1
+    {
+        background: url();
+    }
+    .part2
+    {
+        background: url();
+    }
+    .part3
+    {
+        background: url();
+        
+    }
+    .part4
+    {
+        background: url();
+    }
+    .main5
+    {
+        transform: translate(0px ,650px);
+        height: 100%;
+    
+        
+    }
+    
+    .grid5o1
+    {
+        grid-template-columns:  1fr;
+        padding: 20px;
+        
+       
+    }
+    .mehoo1,.mehoo2,.mehoo3
+    {
+        margin-top: 20px;
+    }
+    .main6
+    {
+      margin-top: 1550px;  
+    }
+    
+    .centerdivimg
+    {
+        height: 500px;
+        width: 400px;
+        background: url(ss.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-295px,50px);
+        
+    }
+    .centerdiv2
+    {
+        height: 225px;
+        width: inherit;
+    }
+    .span5o2
+{
+  font-size: 30px;
+  color: white;
+  transform: translate(0px ,150px );
+}
+.main7
+{
+    grid-template-columns:  1fr;
+    width: 100%;
+    height: 100%;
+
+}
+.main9
+{
+    transform: translate(0px,1320px);
+    height: 100%;
+}
+.news
+{
+    grid-template-columns:  1fr;
+    width: 100%;  
+    padding: 0px;
+}
+.contact
+{
+    grid-template-columns:  1fr;
+    width: 100%;  
+    padding: 0px;
+    transform: translate(0px ,100px);
+    
+   
+}
+.part9o1
+{
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.footer
+{
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 0px;
+  transform: translate(0px , 850px);
+  background-color: rgba(0, 0, 0, 0.8);
+  
+  
+
+}
+.part10o1
+{
+  height: 300px;
+  /* border: 2px solid orangered; */
+  border-bottom: 1px solid gray;
+  
+  
+}
+.mapdiv
+{
+  height: 400px;
+  width: 100%;
+  margin-top: 200px;
+  
+  
+}
+.p5o12
+{
+    font-size: 15px;
+    color: goldenrod;
+    display: block;
+transform: translate(0px , 0px);
+}
+.p5o22
+{
+    font-size: 35px;
+    display: block;
+transform: translate(0px , 10px);
+}
+.footerlogo
+{
+    padding: 20px;
+    margin: 30px;
+}
+.lastspan
+{
+  margin-left: 0px;
+
+}
+.lastdiv
+{
+  color: white;
+  font-size: 18px;
+  margin-left: 250px;
+  
+}
+.copyright
+{
+    transform: translate(0px ,750px);
+}
+
+}
