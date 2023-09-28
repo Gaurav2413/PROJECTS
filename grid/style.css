@@ -1,0 +1,685 @@
+.main1
+{
+  background: url(https://bim.smartinnovates.com/demo2/wp-content/uploads/sites/5/2020/07/2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.nav
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100px;
+  width: 100%;
+  /* background: red; */
+  /* position: fixed;
+  top: 0px;
+  width: 100%; */
+
+}
+.logo
+{
+  background: url(https://bim.themescamp.com/demo2/wp-content/themes/bim/images/logo-white.png);
+  width: 100px;
+  height: 30px;
+  background-size: contain;
+  margin: 30px auto;
+}
+.navli
+{
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+
+.icon
+{
+  /* border: 2px solid ; */
+  padding: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 10px;
+}
+
+.icon .fa
+{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.righticon
+{
+  border-left: 1px solid gray;
+}
+.content
+{
+  
+  /* background-color: black ; */
+  height: 100px;
+  width: 100%;
+  display: grid;
+  margin-top: 150px;
+  text-align: center;
+}
+.span1
+{
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  
+}
+.span2
+{
+font-size: 20px;
+color: white;
+font-weight: bold;
+line-height: 50px;
+}
+.desgintext
+{
+  text-shadow: 2px -2px white, 
+}
+
+                    /* page 2 css start here */
+.main2
+{
+  height: 100%;
+  width: 100%;
+  /* background: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leftimg
+{
+  height: 500px;
+  width: 400px;
+  /* background-color: greenyellow; */
+  margin: 50px auto;
+  background: url(https://media.istockphoto.com/id/1021170914/photo/beautiful-landscape-in-park-with-tree-and-green-grass-field-at-morning.jpg?s=612x612&w=0&k=20&c=qEr8fBQ-jqwZ3y_X7UEjp-2votB_Flhob2TX_PncX5A=);
+  background-size: cover ;
+  background-position: center;
+  position: relative;
+
+}
+.whitediv
+{
+  height: 420px;
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 40px;
+  position: absolute;
+  
+}
+.num
+{
+  -webkit-background-clip:text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  font-weight: 800;
+  background-image: url(https://media.istockphoto.com/id/1021170914/photo/beautiful-landscape-in-park-with-tree-and-green-grass-field-at-morning.jpg?s=612x612&w=0&k=20&c=qEr8fBQ-jqwZ3y_X7UEjp-2votB_Flhob2TX_PncX5A=);
+  font-family: 'Steelfish Rg', 'helvetica neue', helvetica, arial, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 20px;
+}
+.exp
+{
+  font-weight: bold;
+  color: goldenrod;
+  font-size: 30px;
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  
+}
+.since
+{
+  font-weight: bold;
+  color: goldenrod;
+  font-size: 20px;
+  position: absolute;
+  left: 70%;
+  top: 20px;
+}
+
+.rightsidekid
+{
+/* height: 00px; */
+/* width: 600px; */
+/* background-color: aqua; */
+margin-top: 100px;
+
+}
+.rightspan1
+{
+  
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px;
+  
+ 
+  
+  
+}
+.rightspan2
+{
+ 
+  color: black;
+  font-size: 50px;
+  
+  
+}
+.rightspan3
+{
+  
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
+  
+  
+}
+.option
+{
+  margin-top: 50px;
+  /* border: 1px solid; */
+}
+.option1,.option2,.option3
+{
+  list-style: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.readmore
+{
+height: 50px;
+width: 100px;
+background-color: goldenrod;
+text-align: center;
+line-height: 50px;
+color: white;
+margin-top: 50px;
+
+}
+
+.main3
+{
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.midcont
+{
+  text-align: center;
+  /* background-color: red; */
+  transform: translate(0px,100px);
+}
+.p3o1
+{
+ color: goldenrod;
+}
+.p3o2
+{
+font-size: 50px;
+}
+.hoverdiv
+{
+  height: 35% ;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background:url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/exp.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 200px auto;
+  
+}
+.p1
+{
+font-size: 40px;
+font-weight: bold;
+
+}
+.p2
+{
+font-size: 30px;
+font-weight: bold;
+}
+.p3
+{
+color: gray;
+}
+
+.part1,.part2,.part3,.part4
+{
+  border: 1px solid;
+  background-color: white;
+  transition: 0.5s;
+}
+.part1:hover
+{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.part2:hover
+{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.part3:hover
+{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.part4:hover
+{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.backgallery
+{
+  height:500px;
+  width: 100%;
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/port1-3.jpg);
+  background-size: cover;
+  transform: translate(0px , 160px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  
+}
+.part4o1
+{
+  border: 1px solid red;
+  transition: 1s;
+}
+.part4o1:hover
+{
+  transform: translate( 0px,150px);
+}
+
+.main5
+{
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  text-align: center;
+}
+.p5o1
+{
+font-size: 15px;
+color: goldenrod;
+display: block;
+/* transform: translate(0px ,100px); */
+
+}
+.p5o2
+{
+  font-size: 35px;
+  display: block;
+  /* transform: translate(0px ,120px); */
+  
+}
+
+.grid5o1
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* border: 2px solid red; */
+  height: 400px;
+  /* transform: translate(0px ,150px); */
+  column-gap: 70px;
+  padding: 60px;
+  
+}
+.mehoo1
+{
+  /* border: 2px solid green; */
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/P6.jpg);
+  background-size: cover;
+
+  
+}
+.kala1
+{
+  border: 1px solid ;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.7);
+  transform: scale(0.4);
+  transition: 0.4s;
+  opacity: 0;
+  
+
+}
+
+.mehoo1:hover .kala1
+{
+  transform: scale(1); 
+  opacity: 1;
+}
+
+.span5o1
+{
+  font-size: 25px;
+  color: white;
+  transform: translate(0px ,90px);
+  font-weight: bolder;
+}
+.span5o2
+{
+  transform: translate(0px ,90px);
+  color: white;
+}
+
+.mehoo2
+{
+  /* border: 2px solid green; */
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/P7.jpg);
+  background-size: cover;
+}
+.mehoo2:hover .kala1
+{
+  transform: scale(1); 
+  opacity: 1;
+}
+.mehoo3
+{
+  /* border: 2px solid green; */
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/P1.jpg);
+  background-size: cover;
+ 
+}
+.mehoo3:hover .kala1
+{
+  transform: scale(1); 
+  opacity: 1;
+}
+
+.main6
+{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: url(https://bim.smartinnovates.com/demo2/wp-content/uploads/sites/5/2020/07/S6-1.jpg);
+  background-size: contin;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+.centerdivimg
+{
+  height: 400px;
+  width: 700px;
+  background: url(ss.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 330px;
+  top: 200px;
+}
+
+.centerdiv2
+{
+  height: 400px;
+  /* border: 2px solid red; */
+  
+}
+
+.centerdiv2:hover
+{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.span5o2
+{
+  font-size: 40px;
+  color: white;
+  transform: translate(0px ,70px );
+}
+.p5o1
+{
+  transform: translate(0px ,50px);
+}
+.p5o2
+{
+  transform: translate(0px ,60px);
+  display: block;
+}
+.main7
+{
+  height: 300px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* border: 2px solid red;  */
+  background-color: rgb(248,244,243); 
+}
+.counter1
+{
+  /* border: 2px solid green; */
+  text-align: center;
+  padding: 70px;
+}
+.fa-puzzle-piece,.fa-handshake-o,.fa-line-chart,.fa-trophy
+{
+  font-size: 50px;
+  color: gray;
+
+}
+.span7o1
+{
+  font-size: 50px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-left: -10px;
+
+}
+.span7o2
+{
+ font-size: 12px; 
+ color: gray;
+ margin-top: 10px;
+ font-weight: bold;
+}
+.main8
+{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+.news
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* border: 2px solid green; */
+  position: relative;
+  top: 100px;
+  column-gap: 70px;
+  padding: 50px;
+  
+}
+.news1
+{
+  height: 450px;
+  /* border: 2px solid red; */
+  overflow: hidden;
+  
+}
+.newsimg1,.newsimg2,.newsimg3
+{
+  /* border: 2px solid lawngreen; */
+  height: 230px;
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/port1-3.jpg);
+  background-size: contain;
+  transition: 1s;
+}
+
+
+.newsimg2
+{
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/port2-2.jpg);
+  background-size: contain;
+}
+.newsimg3
+{
+  background: url(https://bim.themescamp.com/demo2/wp-content/uploads/sites/5/2020/07/port5-1.jpg);
+  background-size: contain;
+}
+.p8o1
+{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+}
+.dates
+{
+  font-size: 13px;
+  color: goldenrod;
+  text-align: start;
+}
+.span8o1
+{
+  font-size: 17px;
+  text-align: start;
+  color: gray;
+}
+.readme
+{
+  width: 80px;
+  border-bottom: 1px solid ;
+  color: gray;
+  text-align: start;
+  transition: 1s  ;
+}
+.readme:hover
+{
+  transform: translate(20px);
+}
+
+.main9
+{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(248,244,243);
+  text-align: center;
+}
+.contact
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  padding: 100px;
+  transform: translate(0px ,150px);
+
+
+}
+.part9o1
+{
+  height: 200px;
+  background: white;
+  border: 1px solid;
+}
+.rang
+{
+  color: goldenrod;
+}
+
+.fa-mobile,.fa-map-marker,.fa-envelope-o
+{
+  font-size: 50px;
+  color: gray;
+}
+.mapdiv
+{
+  height: 400px;
+  width: 100%;
+  /* margin-top: 200px; */
+  
+  
+}
+.main10
+{
+  height: 510px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.783);
+}
+.footer
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* border: 2px solid red; */
+  padding: 40px;
+  text-align: start;
+}
+.part10o1
+{
+  height: 350px;
+  /* border: 2px solid orangered; */
+  
+}
+.footerlogo
+{
+  height: 50px;
+  width: 100px;
+  background: url(https://bim.themescamp.com/demo2/wp-content/themes/bim/images/logo-white.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.footerp
+{
+  font-size: 17px;
+  color: white;
+}
+.botton
+{
+  height: 30px;
+  width: 150px;
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  margin-top: 50px;
+
+}
+.first
+{
+  border: 1px solid grey;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+.rangdolal
+{
+  color: goldenrod;
+  list-style-type: none;
+}
+.rangdolal2
+{
+  color: gray;
+  line-height: 50px;
+}
+.copyright
+{
+  /* border: 1px solid red; */
+  border-top: 1px solid gray;
+  color: white;
+  font-size: 15px;
+  padding: 30px;
+  
+}
+.lastspan
+{
+  margin-left: 100px;
+
+}
+.lastdiv
+{
+  color: white;
+  font-size: 18px;
+  margin-left: 500px;
+}

@@ -1,0 +1,392 @@
+@media(max-width:500px)
+{
+    .content
+    {
+        width: 100%;
+    }
+    .cont1
+    {
+    font-size: 80px;
+    }
+    .cont2
+    {
+    font-size: 80px;
+    }
+    .cont3
+    {
+        font-size: 10px;
+    }
+    .navbar
+    {width: 100%;}
+    
+    .btn
+    {
+        margin-left: -40px;
+    }
+
+    .main2
+    {
+        justify-content: center;
+         align-items: center;
+         width: 100%;
+    }
+    .part2
+    {
+        width: 100%;
+    }
+    .cont5,.cont4
+    {
+        font-size: 25px;
+        margin-left: 0px;
+        
+    }
+    .cont6
+    {
+        text-align: center;
+    }
+    .imgb
+    {
+        width: 100%;
+        left: -10px;
+        top: 0px;
+        background-size: 100% 100%;
+    }
+    
+    .papabox
+    {
+        width: 100%;
+        justify-self: center;
+        margin-left: 0px;
+    }
+    .btn2
+    {
+        transform: translate(80px);
+    }
+    .main3
+    {
+        margin-top: 475px;
+        padding-top:0px;
+
+    }
+
+    .flippart1
+    {
+        
+        transform: translate(0px ,0px);
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        
+        
+    } 
+    .flippart2
+       {
+
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+
+       }
+    
+    .card1,.card2,.card3,.card4
+    {
+        width: 1000px;
+        margin: 15px;
+    }
+    .card5,.card6,.card7,.card8
+    {
+       width: 100%;
+       margin: 15px;
+    }
+    .product
+    {
+        margin-left: 100px;
+    }
+    .front img
+    {
+        width: 100%;
+    }
+
+    .front,.back
+    {
+        width: 440px;
+        margin-left: -105px;
+    }
+
+    .fa-solid,.fa-brands
+    {
+        margin: 50px 170px;
+    }
+    .cardtext1,.cardtext3,.cardtext2
+    {
+        justify-content: center;
+    }
+    .cardtext
+    {
+        
+        justify-content: space-around;
+        margin-left: 40px;
+        transform: translate(-20px);
+
+    }
+    .card1
+    {
+        
+        text-align: center;
+    }
+    .portfolio
+    {
+      padding: 50px;  
+        
+    }
+
+    .portfoliospan
+    {
+      margin-left: -70px;
+      margin-top: 50px;
+      font-size: 90px;
+
+    }
+    .ourportfolio
+    {
+        color: goldenrod;
+        font-size: 25px;
+        margin-left: 140px;
+    }
+    .ourportfolio2
+    {
+        color: white; 
+        font-size: 30px;
+        margin-left: 76px;
+    }
+    .zfont
+    {
+        
+        width: 350px;
+        /* top: -100px; */
+        
+        transform: translate(10% ,-200%);
+    }
+    .imgcorosal1
+    {
+        
+        width: 470px;
+        /* background-color: aquamarine; */
+        margin-left: 0%;
+        display: flex;
+    }
+    .corosalimg1
+    {
+        width: 100%;
+    }
+
+    
+    .detail2
+    {
+ 
+        
+        margin-left: 20%;
+        
+    }
+    .zfont2
+    {
+
+        
+        width: 350px;
+        margin: 40px 25%;
+    }
+    .kid5o1
+    {
+        width: 100%;
+    }
+    .img5o1
+    {
+        
+        margin: 0px;
+        width: 100%;
+    }
+    .kid5o2
+    {
+      width: 100%;
+    }
+    .cont5o1
+    {
+        
+        font-size: 35px;
+        font-weight: bold;
+        line-height:40px;
+        margin-top: -350px;
+        margin-left: 60px;
+        width: 390px;  
+    }
+    .span5o1
+    {
+        color: rgb(174, 151, 117);
+        margin-left: 0px;
+    }
+    
+    .span5o2
+    {
+        margin-left: -60px ;
+        display: flex   ;
+        justify-content: center;
+        color: black;
+        width: 450px;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .cont5o2
+    {
+       
+        width: 320px;
+        text-align: center;
+        margin-left: 70px;
+        margin-top: 30px;
+        line-height: 25px;
+    }
+
+    .book
+    {
+        height: 500px;
+        width: 500px;
+        margin: 200Px -50px   
+    }
+    .pencil2
+    {
+        margin-left: -50px;
+    }
+
+    .main6
+    {
+        margin-top: 600px;
+    }
+}
+@media(max-width:1300px)
+{
+    .nav
+    {
+     display: none;
+    }
+    .part6o1,.part6o2,.part6o3,.part6o4
+    {
+        width: 25%;
+        
+    }
+    .sps2
+    {
+        left: -70%;
+    }
+
+    .sps3
+    {
+        left: -30%;
+        width: 200px;
+    }
+    .leftdiv7
+    {
+        height: 70%;
+        width: 400px;
+        transform: translate(0px ,-500px);
+        /* background-color: red; */
+        text-align: center;
+    }
+    .pdiv
+    {
+        margin-top: -400px;
+        margin-left: 40px;
+        width: 400px;
+    }
+    .p7o1
+    {
+        font-size: 40px;
+        color: rgb(174, 151, 117);
+        font-weight: bolder;
+        
+    }
+    .p7o2
+    {
+        font-size: 40px;
+        color: black;
+        font-weight: bolder;
+        
+    }
+    .p7o3
+    {
+        margin-top: 20px;
+        width: 430px;
+        margin-left: -20px;
+    }
+    .btn7
+    {
+        left: 160px;
+    }
+    .flex8
+            {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 0px;
+                justify-content: space-around;
+                /* margin-top: 300px; */
+            }
+            .part8o1,.part8o2,.part8o3,.part8o4
+            {
+                height: 400px;
+                margin-left: 0px;
+                margin-right: 60px;
+                width: 100%;    
+            }
+            .sapn8
+            {
+                font-size: 20px;
+                color: rgb(174, 151, 117);
+                font-weight: bolder;
+                margin-top: -100px;
+            }
+            .name1,.name2,.name3,.name4
+            {
+                margin-top: 50px;
+                
+            }
+            .papa8o1,.papa8o2,.papa8o3,.papa8o4
+            {
+                /* border: 2px solid greenyellow; */
+                width: 70%;
+                margin-left: 0px;
+                margin-top: 100px;
+            }
+            .main8
+            {
+             margin-top: 50px;   
+            }
+            .main9
+            {
+               margin-top: 1900px;
+            }
+            .papa9
+            {
+                width: 465px;
+                left: 0%;
+            }
+            .part10o1,.part10o2,.part10o3,.part10o4
+            {
+                width: 100%;
+                margin-top: 20px;     
+            }
+            .cardimg10o1,.cardimg10o2,.cardimg10o3,.cardimg10o4
+            {
+                height: 300px;
+                
+            }
+            .main11
+            {
+                height: 100%;
+                margin-top: 1500px;
+            }
+            .lastspan3
+            {
+              padding-left: 50px;
+            }
+
+        
+}
