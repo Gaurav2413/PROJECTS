@@ -1,0 +1,130 @@
+    @media(max-width:500px)
+    {
+        .navelement ul li   
+        {
+            display: none; 
+        } 
+
+        .creativeside
+        {
+            
+            display: flex;
+            /* margin-top: 100px; */
+            flex-wrap: wrap;
+        }
+
+        .sideleft
+        {
+            /* border: 2px solid orangered; */
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+        .sideright
+        {
+            /* border: 2px solid orangered; */
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+        .arrow
+        {
+        
+            margin-left: 5%;
+        }
+
+        .man
+        { 
+            position: absolute;
+            top: 120%;
+            left: 20%;
+        }
+        .papa
+        {
+            
+            grid-template-columns: 1fr;
+            width: 100%;
+            padding: 0px;
+            
+        }
+        .limit
+        {
+            width: 450px;
+            text-align: start;
+            margin-left: 0px;
+        }
+        .bg2page
+        {
+        margin: 0px;
+        object-fit: cover;
+
+        }
+        .bg3page
+        {
+
+        transform: translate(15%,-80%);
+
+        }
+        .bulb
+        {
+            transform: translate( 300px,100px);
+        }
+        .background3
+        {
+            
+            height: 100vh;
+            
+        }
+        .hello2
+        {
+            color: white;
+            font-size: 65px;
+            font-weight: bold;
+        }
+        .dada
+        {
+        position: absolute;
+        top: 20% ;   
+        left: 0px;
+        text-align: center;
+        }
+        .iam4
+        {
+            
+            grid-template-columns: 1fr;
+            /* width: 100%; */
+        }
+        .color2
+        {
+            
+            margin-right: 0px;
+
+        }
+        .kuchkro
+        {
+            width: 50%;
+        }
+        .iamleft
+        {
+            /* border: 2px solid greenyellow; */
+            padding-left: 0px;
+            padding-top: 100px;
+            text-align: center;
+        }
+        .photo
+        {
+            width: 400px;
+        }
+        .main4
+        {
+            transform: translate(0px ,160%);
+        }
+        .main5
+        {
+            transform: translate(0px ,347%);  
+        }
+        
+
+        
+    }
+    

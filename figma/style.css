@@ -1,0 +1,304 @@
+*
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            /* border: 1px solid  transparent; */
+            
+            
+        }
+        .main1,.main2,.main4
+        {
+            
+            background-color: rgba(34, 40, 49, 1);
+            
+        }
+        .navbar
+        {
+            /* border: 2px solid yellowgreen; */
+            color: white;
+            display: grid;
+            grid-template-columns: 6fr 2fr;
+            padding: 10px 50px;
+            border-bottom: 1px solid gainsboro;
+        }
+        .logo
+        {
+            
+            font-size: 25px;
+            padding: 10px ;
+        }
+        .navelement ul li   
+        {
+            display: inline-block;
+            /* border: 2px solid red;    */
+            padding: 10px ;
+        }
+        .navelement ul
+        {
+            /* border: 2px solid violet; */
+            text-align: start; 
+               
+        }
+        .color1
+        {
+            color: white;
+            text-decoration: none;
+        }
+        .creativeside
+        {
+            /* border: 2px solid white; */
+            display: flex;
+            margin-top: 100px;
+            flex-wrap: wrap;
+        }
+        .sideleft
+        {
+            /* border: 2px solid orangered; */
+            width: 50%;
+            color: white;
+            text-align: center;
+        }
+
+        .sideright
+        {
+            /* border: 2px solid yellowgreen;  */
+            width: 50%;  
+        }
+        .heading
+        {
+            color: white;
+            font-weight: bold;
+            font-size: 65px;
+            
+        }
+        .color2
+        {
+            color: #00ADB5;
+            font-weight: bold;
+            font-size: 65px;
+            margin-right: 70px;
+
+        }
+        .twinsbtn
+        {
+            margin: 30px 160px;
+        }
+
+        .bg
+        {
+            background-color: #00ADB5;
+            color: white;
+            
+        }
+        .man
+        {
+            /* transform: translate(100px,-300px); */
+            position: absolute;
+            top: 60%;
+            left: 60%;
+        }
+
+        .arrow
+        {
+            display: flex;
+            /* border: 2px solid red; */
+            margin-left: 100px;
+        }
+        .Vector
+        {
+            margin-top: 20px;
+        }
+
+        .papa
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* border: 2px solid greenyellow; */
+            padding: 50px;
+            
+        }
+        .kid1
+        {
+            
+            margin-top: 100px;
+            
+            
+        }
+        
+        .hello
+        {
+            color: white;
+            font-size: 65px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .para
+        {
+            color: white;
+            
+        }
+        .limit
+        {
+            width: 450px;
+            text-align: start;
+            margin-left: 120px;
+        }
+        .Vector2
+        {
+            transform: rotate(-170deg);
+            /* border: 2px solid red; */
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .bg2page
+        {
+        margin: 60px;
+
+        }
+        .bg3page
+        {
+        transform: translate(150px,-300px);
+
+        }
+        .bulb
+        {
+            transform: translate( 400px,100px);
+        }
+        
+        .background3
+        {
+            position: relative;
+            
+            
+        }
+        .dada
+        {
+        position: absolute;
+        top: 200px;   
+        left: 100px;
+        }
+
+        .tb
+        {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+        }
+
+        .hello2
+        {
+            color: white;
+            font-size: 65px;
+            font-weight: bold;
+        }
+
+        .iam4
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .iamleft
+        {
+            /* border: 2px solid greenyellow; */
+            padding-left: 150px;
+            padding-top: 100px;
+        }
+
+
+        .iamright
+        {
+            /* border: 2px solid red; */
+            color: white;
+        }
+        .form
+        {
+           display: flex;
+            margin: 100px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        
+        .sideright
+        {
+            text-align: center; 
+        }
+
+        .textarea
+        {
+            margin-top: 20px;
+            transform: translate(100px); 
+             
+        }
+        input,textarea
+        {
+            background-color: black ;
+            color: white;
+            
+           
+        }
+        input:hover ,textarea:hover
+        {
+            border: 1px solid #00ADB5;
+            
+        }
+        
+
+
+.main5
+{
+    background-color: rgba(34, 40, 49, 1) ;  
+    color: white;
+    /* border: 1px solid white; */
+    padding: 50px;
+
+}
+.lastone
+{
+    /* border: 2px solid green; */
+    text-align: center;
+    border-top: 1px solid gray;
+    
+   
+}
+.lastone ul li
+{
+    display: inline;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+.anchor
+{
+    text-decoration: none;
+    color: white;
+}
+.lasticon 
+{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.iconji
+{
+    margin: 20px;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    
+}
+.copyright
+{
+    text-align: end;
+    padding: 20px;
+}
+
+
+
+       
+        
